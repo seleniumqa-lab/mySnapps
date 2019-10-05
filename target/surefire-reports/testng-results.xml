@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7400" started-at="2019-10-05T07:17:04Z" finished-at="2019-10-05T07:17:12Z">
+    <groups>
+    </groups>
+    <test name="HomePage" duration-ms="7369" started-at="2019-10-05T07:17:04Z" finished-at="2019-10-05T07:17:12Z">
+      <class name="DgroupId.HomePage">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:DgroupId.HomePage@3835c46]" name="initializeBrowser" is-config="true" duration-ms="5255" started-at="2019-10-05T12:47:04Z" finished-at="2019-10-05T12:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:DgroupId.HomePage@3835c46]" name="basePageNavigation" duration-ms="1505" started-at="2019-10-05T12:47:09Z" finished-at="2019-10-05T12:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DgroupId.HomePage@3835c46]" name="tearDown" is-config="true" duration-ms="602" started-at="2019-10-05T12:47:11Z" finished-at="2019-10-05T12:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DgroupId.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="Loginpage" duration-ms="0" started-at="2019-10-05T07:17:12Z" finished-at="2019-10-05T07:17:12Z">
+      <class name="DgroupId.Loginpage">
+        <test-method status="PASS" signature="LoginPage()[pri:0, instance:DgroupId.Loginpage@71809907]" name="LoginPage" duration-ms="0" started-at="2019-10-05T12:47:12Z" finished-at="2019-10-05T12:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+      </class> <!-- DgroupId.Loginpage -->
+    </test> <!-- Loginpage -->
+    <test name="LogOut" duration-ms="1" started-at="2019-10-05T07:17:12Z" finished-at="2019-10-05T07:17:12Z">
+      <class name="DgroupId.LogOut">
+        <test-method status="PASS" signature="LogOutPage()[pri:0, instance:DgroupId.LogOut@3bb9a3ff]" name="LogOutPage" duration-ms="0" started-at="2019-10-05T12:47:12Z" finished-at="2019-10-05T12:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutPage -->
+      </class> <!-- DgroupId.LogOut -->
+    </test> <!-- LogOut -->
+  </suite> <!-- Suite -->
+</testng-results>

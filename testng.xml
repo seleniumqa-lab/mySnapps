@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<listeners>
+		<listener class-name="DgroupId.ListenersTest"/>
+		<listener class-name="resource.ExtentReporterNG"/>
+	</listeners>
+
+
+  <test name="HomePage">
+    <classes>
+      <class name="DgroupId.HomePage"/>
+   </classes>
+   </test>
+   
+   <test name="Loginpage">
+    <classes>
+     <class name="DgroupId.Loginpage"/>
+   </classes>
+   </test>
+   
+   <test name="LogOut">
+    <classes>
+       <class name="DgroupId.LogOut"/>
+   </classes>
+   </test>
+   
+           
+</suite> <!-- Suite -->
