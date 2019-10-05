@@ -1,4 +1,4 @@
-package DgroupId;
+package mySnapps;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,11 +34,12 @@ public class HomePage extends testBase {
 		log.info("Browser is successfully launched");
 		driver.get(prop.getProperty("URL"));
 		log.info("mySnapps homepage is successfully launched");
+		log.info("Code is successfully pushed and pulled from Git");
 	}
 	
 	
 	@Test
-	public void basePageNavigation(){
+	public void basePageNavigation(){ 
 
 		 // Two methods to access the class 
 		// Create object to that class or invoke methods of it 

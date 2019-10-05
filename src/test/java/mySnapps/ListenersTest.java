@@ -1,4 +1,4 @@
-package DgroupId;
+package mySnapps;
 
 import java.io.IOException;
 

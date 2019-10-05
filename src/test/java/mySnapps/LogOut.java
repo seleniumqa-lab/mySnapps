@@ -1,4 +1,4 @@
-package DgroupId;
+package mySnapps;
 
 import org.testng.annotations.Test;
 
