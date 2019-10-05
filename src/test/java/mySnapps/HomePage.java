@@ -34,7 +34,8 @@ public class HomePage extends testBase {
 		log.info("Browser is successfully launched");
 		driver.get(prop.getProperty("URL"));
 		log.info("mySnapps homepage is successfully launched");
-		log.info("Code is successfully pushed and pulled from Git");
+		log.info("Code is successfully pushed and pulled from Git frist time");
+		log.info("Code is successfully pushed and pulled from Git second time");
 	}
 	
 	
